@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9CC637026D5659600EE08C1 /* LostPhoneMattFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC636F26D5659600EE08C1 /* LostPhoneMattFApp.swift */; };
+		A9CC637226D5659600EE08C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC637126D5659600EE08C1 /* ContentView.swift */; };
+		A9CC637426D5659700EE08C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CC637326D5659700EE08C1 /* Assets.xcassets */; };
+		A9CC637726D5659700EE08C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CC637626D5659700EE08C1 /* Preview Assets.xcassets */; };
+		A9CC638226D5659700EE08C1 /* LostPhoneMattFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC638126D5659700EE08C1 /* LostPhoneMattFTests.swift */; };
+		A9CC638D26D5659700EE08C1 /* LostPhoneMattFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC638C26D5659700EE08C1 /* LostPhoneMattFUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9CC637E26D5659700EE08C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CC636426D5659600EE08C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CC636B26D5659600EE08C1;
+			remoteInfo = LostPhoneMattF;
+		};
+		A9CC638926D5659700EE08C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CC636426D5659600EE08C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CC636B26D5659600EE08C1;
+			remoteInfo = LostPhoneMattF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9CC636C26D5659600EE08C1 /* LostPhoneMattF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostPhoneMattF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CC636F26D5659600EE08C1 /* LostPhoneMattFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostPhoneMattFApp.swift; sourceTree = "<group>"; };
+		A9CC637126D5659600EE08C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9CC637326D5659700EE08C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CC637626D5659700EE08C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9CC637826D5659700EE08C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CC637D26D5659700EE08C1 /* LostPhoneMattFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostPhoneMattFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CC638126D5659700EE08C1 /* LostPhoneMattFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostPhoneMattFTests.swift; sourceTree = "<group>"; };
+		A9CC638326D5659700EE08C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CC638826D5659700EE08C1 /* LostPhoneMattFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostPhoneMattFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CC638C26D5659700EE08C1 /* LostPhoneMattFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostPhoneMattFUITests.swift; sourceTree = "<group>"; };
+		A9CC638E26D5659700EE08C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CC636926D5659600EE08C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC637A26D5659700EE08C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC638526D5659700EE08C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9CC636326D5659600EE08C1 = {
+			isa = PBXGroup;
+			children = (
+				A9CC636E26D5659600EE08C1 /* LostPhoneMattF */,
+				A9CC638026D5659700EE08C1 /* LostPhoneMattFTests */,
+				A9CC638B26D5659700EE08C1 /* LostPhoneMattFUITests */,
+				A9CC636D26D5659600EE08C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9CC636D26D5659600EE08C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9CC636C26D5659600EE08C1 /* LostPhoneMattF.app */,
+				A9CC637D26D5659700EE08C1 /* LostPhoneMattFTests.xctest */,
+				A9CC638826D5659700EE08C1 /* LostPhoneMattFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CC636E26D5659600EE08C1 /* LostPhoneMattF */ = {
+			isa = PBXGroup;
+			children = (
+				A9CC636F26D5659600EE08C1 /* LostPhoneMattFApp.swift */,
+				A9CC637126D5659600EE08C1 /* ContentView.swift */,
+				A9CC637326D5659700EE08C1 /* Assets.xcassets */,
+				A9CC637826D5659700EE08C1 /* Info.plist */,
+				A9CC637526D5659700EE08C1 /* Preview Content */,
+			);
+			path = LostPhoneMattF;
+			sourceTree = "<group>";
+		};
+		A9CC637526D5659700EE08C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9CC637626D5659700EE08C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9CC638026D5659700EE08C1 /* LostPhoneMattFTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CC638126D5659700EE08C1 /* LostPhoneMattFTests.swift */,
+				A9CC638326D5659700EE08C1 /* Info.plist */,
+			);
+			path = LostPhoneMattFTests;
+			sourceTree = "<group>";
+		};
+		A9CC638B26D5659700EE08C1 /* LostPhoneMattFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CC638C26D5659700EE08C1 /* LostPhoneMattFUITests.swift */,
+				A9CC638E26D5659700EE08C1 /* Info.plist */,
+			);
+			path = LostPhoneMattFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9CC636B26D5659600EE08C1 /* LostPhoneMattF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CC639126D5659700EE08C1 /* Build configuration list for PBXNativeTarget "LostPhoneMattF" */;
+			buildPhases = (
+				A9CC636826D5659600EE08C1 /* Sources */,
+				A9CC636926D5659600EE08C1 /* Frameworks */,
+				A9CC636A26D5659600EE08C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LostPhoneMattF;
+			productName = LostPhoneMattF;
+			productReference = A9CC636C26D5659600EE08C1 /* LostPhoneMattF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9CC637C26D5659700EE08C1 /* LostPhoneMattFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CC639426D5659700EE08C1 /* Build configuration list for PBXNativeTarget "LostPhoneMattFTests" */;
+			buildPhases = (
+				A9CC637926D5659700EE08C1 /* Sources */,
+				A9CC637A26D5659700EE08C1 /* Frameworks */,
+				A9CC637B26D5659700EE08C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CC637F26D5659700EE08C1 /* PBXTargetDependency */,
+			);
+			name = LostPhoneMattFTests;
+			productName = LostPhoneMattFTests;
+			productReference = A9CC637D26D5659700EE08C1 /* LostPhoneMattFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9CC638726D5659700EE08C1 /* LostPhoneMattFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CC639726D5659700EE08C1 /* Build configuration list for PBXNativeTarget "LostPhoneMattFUITests" */;
+			buildPhases = (
+				A9CC638426D5659700EE08C1 /* Sources */,
+				A9CC638526D5659700EE08C1 /* Frameworks */,
+				A9CC638626D5659700EE08C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CC638A26D5659700EE08C1 /* PBXTargetDependency */,
+			);
+			name = LostPhoneMattFUITests;
+			productName = LostPhoneMattFUITests;
+			productReference = A9CC638826D5659700EE08C1 /* LostPhoneMattFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CC636426D5659600EE08C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A9CC636B26D5659600EE08C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A9CC637C26D5659700EE08C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A9CC636B26D5659600EE08C1;
+					};
+					A9CC638726D5659700EE08C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A9CC636B26D5659600EE08C1;
+					};
+				};
+			};
+			buildConfigurationList = A9CC636726D5659600EE08C1 /* Build configuration list for PBXProject "LostPhoneMattF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9CC636326D5659600EE08C1;
+			productRefGroup = A9CC636D26D5659600EE08C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9CC636B26D5659600EE08C1 /* LostPhoneMattF */,
+				A9CC637C26D5659700EE08C1 /* LostPhoneMattFTests */,
+				A9CC638726D5659700EE08C1 /* LostPhoneMattFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9CC636A26D5659600EE08C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CC637726D5659700EE08C1 /* Preview Assets.xcassets in Resources */,
+				A9CC637426D5659700EE08C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC637B26D5659700EE08C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC638626D5659700EE08C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9CC636826D5659600EE08C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CC637226D5659600EE08C1 /* ContentView.swift in Sources */,
+				A9CC637026D5659600EE08C1 /* LostPhoneMattFApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC637926D5659700EE08C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CC638226D5659700EE08C1 /* LostPhoneMattFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC638426D5659700EE08C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CC638D26D5659700EE08C1 /* LostPhoneMattFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9CC637F26D5659700EE08C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CC636B26D5659600EE08C1 /* LostPhoneMattF */;
+			targetProxy = A9CC637E26D5659700EE08C1 /* PBXContainerItemProxy */;
+		};
+		A9CC638A26D5659700EE08C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CC636B26D5659600EE08C1 /* LostPhoneMattF */;
+			targetProxy = A9CC638926D5659700EE08C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9CC638F26D5659700EE08C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9CC639026D5659700EE08C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9CC639226D5659700EE08C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LostPhoneMattF/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LostPhoneMattF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LostPhoneMattF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9CC639326D5659700EE08C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LostPhoneMattF/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LostPhoneMattF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LostPhoneMattF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9CC639526D5659700EE08C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LostPhoneMattFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LostPhoneMattFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LostPhoneMattF.app/LostPhoneMattF";
+			};
+			name = Debug;
+		};
+		A9CC639626D5659700EE08C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LostPhoneMattFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LostPhoneMattFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LostPhoneMattF.app/LostPhoneMattF";
+			};
+			name = Release;
+		};
+		A9CC639826D5659700EE08C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LostPhoneMattFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LostPhoneMattFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LostPhoneMattF;
+			};
+			name = Debug;
+		};
+		A9CC639926D5659700EE08C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LostPhoneMattFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LostPhoneMattFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LostPhoneMattF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9CC636726D5659600EE08C1 /* Build configuration list for PBXProject "LostPhoneMattF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CC638F26D5659700EE08C1 /* Debug */,
+				A9CC639026D5659700EE08C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CC639126D5659700EE08C1 /* Build configuration list for PBXNativeTarget "LostPhoneMattF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CC639226D5659700EE08C1 /* Debug */,
+				A9CC639326D5659700EE08C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CC639426D5659700EE08C1 /* Build configuration list for PBXNativeTarget "LostPhoneMattFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CC639526D5659700EE08C1 /* Debug */,
+				A9CC639626D5659700EE08C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CC639726D5659700EE08C1 /* Build configuration list for PBXNativeTarget "LostPhoneMattFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CC639826D5659700EE08C1 /* Debug */,
+				A9CC639926D5659700EE08C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CC636426D5659600EE08C1 /* Project object */;
+}
