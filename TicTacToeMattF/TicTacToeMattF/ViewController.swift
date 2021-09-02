@@ -25,11 +25,11 @@ class ViewController: UIViewController {
         if XorO == true{
             SQ1Title.setTitle("X", for: .normal)
             XorO = false
-            turn.text = String(XorO)
+            turn.text = "O's Turn"
         }
         else{ SQ1Title.setTitle("O", for: .normal)
             XorO = true
-            turn.text = String(XorO)
+            turn.text = "X's Turn"
 
         }
         
@@ -37,13 +37,13 @@ class ViewController: UIViewController {
     @IBAction func square2(_ sender: UIButton) { if XorO == true{
         SQ2Title.setTitle("X", for: .normal)
         XorO = false
-        turn.text = String(XorO)
+        turn.text = "O's Turn"
 
 
     }
     else{ SQ2Title.setTitle("O", for: .normal)
         XorO = true
-        turn.text = String(XorO)
+        turn.text = "X's Turn"
 
 }
     }
@@ -52,99 +52,96 @@ class ViewController: UIViewController {
         if XorO == true{
             SQ3Title.setTitle("X", for: .normal)
             XorO = false
-            turn.text = String(XorO)
+            turn.text = "O's Turn"
 
 
         }
         else{ SQ3Title.setTitle("O", for: .normal)
             XorO = true
-            turn.text = String(XorO)
+            turn.text = "X's Turn"
 
     }
 
 
     }
-    @IBAction func square4(_ sender: UIButton) {
-        if XorO == true{
-            SQ4Title.setTitle("X", for: .normal)
-            XorO = false
-            turn.text = String(XorO)
+    @IBAction func square4(_ sender: UIButton) { if XorO == true{
+        SQ4Title.setTitle("X", for: .normal)
+        XorO = false
+        turn.text = "O's Turn"
 
 
-        }
-        else{ SQ4Title.setTitle("O", for: .normal)}
+    }
+    else{ SQ4Title.setTitle("O", for: .normal)
         XorO = true
-        turn.text = String(XorO)
+        turn.text = "X's Turn"
+
+}
+    }
+    @IBAction func square5(_ sender: UIButton) { if XorO == true{
+        SQ5Title.setTitle("X", for: .normal)
+        XorO = false
+        turn.text = "O's Turn"
+
 
     }
-    @IBAction func square5(_ sender: UIButton) {
-        if XorO == true{
-            SQ5Title.setTitle("X", for: .normal)
-            XorO = false
-            turn.text = String(XorO)
-
-
-        }
-        else{ SQ5Title.setTitle("O", for: .normal)}
+    else{ SQ5Title.setTitle("O", for: .normal)
         XorO = true
-        turn.text = String(XorO)
+        turn.text = "X's Turn"
 
-
+}
     }
     @IBAction func square6(_ sender: UIButton) {
         if XorO == true{
             SQ6Title.setTitle("X", for: .normal)
             XorO = false
-            turn.text = String(XorO)
+            turn.text = "O's Turn"
 
 
         }
         else{ SQ6Title.setTitle("O", for: .normal)
             XorO = true
-            turn.text = String(XorO)
+            turn.text = "X's Turn"
 
 
         }
     }
-    @IBAction func square7(_ sender: UIButton) {
-        if XorO == true{
-            SQ7Title.setTitle("X", for: .normal)
-            XorO = false
-            turn.text = String(XorO)
-
-
-        }
-        else{ SQ7Title.setTitle("O", for: .normal)}
-        XorO = true
-        turn.text = String(XorO)
+    @IBAction func square7(_ sender: UIButton){ if XorO == true{
+        SQ7Title.setTitle("X", for: .normal)
+        XorO = false
+        turn.text = "O's Turn"
 
 
     }
-    @IBAction func square8(_ sender: UIButton) {
-        if XorO == true{
-            SQ8Title.setTitle("X", for: .normal)
-            XorO = false
-            turn.text = String(XorO)
-
-
-        }
-        else{ SQ8Title.setTitle("O", for: .normal)}
+    else{ SQ7Title.setTitle("O", for: .normal)
         XorO = true
-        turn.text = String(XorO)
+        turn.text = "X's Turn"
+
+}
+    }
+    @IBAction func square8(_ sender: UIButton) { if XorO == true{
+        SQ8Title.setTitle("X", for: .normal)
+        XorO = false
+        turn.text = "O's Turn"
 
 
+    }
+    else{ SQ8Title.setTitle("O", for: .normal)
+        XorO = true
+        turn.text = "X's Turn"
+
+}
     }
     @IBAction func square9(_ sender: UIButton) {
         if XorO == true{
             SQ9Title.setTitle("X", for: .normal)
             XorO = false
-            turn.text = String(XorO)
+            turn.text = "O's Turn"
 
 
         }
         else{ SQ9Title.setTitle("O", for: .normal)
             XorO = true
-            turn.text = String(XorO)
+            turn.text = "X's Turn"
 
     }
     }
