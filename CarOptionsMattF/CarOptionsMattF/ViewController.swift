@@ -12,7 +12,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var selected: UILabel!
     @IBOutlet weak var allData: UIPickerView!
     @IBAction func carSelecter(_ sender: Any) {
-        selected.text  = Data[0][allData.selectedRow(inComponent: 0)] + Data[1][allData.selectedRow(inComponent: 1)] + Data[2][allData.selectedRow(inComponent: 2)]
+        selected.text  = "Your choose " + Data[0][allData.selectedRow(inComponent: 0)] + " Tires, " + Data[1][allData.selectedRow(inComponent: 1)] + " Color, and a " + Data[2][allData.selectedRow(inComponent: 2)] + " engine"
     }
     
     var Data:[[String]] = [[String]]()
