@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="LWT-sE-0Kk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w5m-zW-Mus">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Td3-zo-cWZ">
@@ -32,7 +32,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5je-uJ-bBN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="660.86956521739137" y="85.714285714285708"/>
+            <point key="canvasLocation" x="1074" y="86"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d1K-8B-SBA">
@@ -55,7 +55,7 @@
             <objects>
                 <viewController id="fC2-po-ZFY" customClass="ViewController" customModule="Cha5MattF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="egF-5e-c1p">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxv-4y-DcR">
@@ -78,7 +78,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2h1-vI-Dkb"/>
+        <segue reference="AJb-cx-hro"/>
+        <segue reference="mL4-RG-BQM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
