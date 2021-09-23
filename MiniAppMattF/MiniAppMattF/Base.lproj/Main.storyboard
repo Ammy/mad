@@ -48,6 +48,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOG-T3-0tu">
+                                <rect key="frame" x="133" y="126" width="168" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -80,23 +87,33 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6r-CA-N0Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="557" y="779"/>
+            <point key="canvasLocation" x="364" y="917"/>
         </scene>
-        <!--test-->
+        <!--HowTo-->
         <scene sceneID="xiU-5f-aCr">
             <objects>
                 <viewController id="EVj-Hl-t7E" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fFC-XM-8cW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXW-pf-5EY">
+                                <rect key="frame" x="59" y="331" width="296" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Choose a number of minutes upto 59 and a number of hours upto 23, then press start the timer will then count down from that by the seconds. If you wish to stop the timer then press the button that says stop </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="16u-9a-WGb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="test" id="kAp-RN-zJZ"/>
+                    <tabBarItem key="tabBarItem" title="HowTo" id="kAp-RN-zJZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XHr-Hh-DaT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="881" y="104"/>
+            <point key="canvasLocation" x="879.71014492753625" y="103.79464285714285"/>
         </scene>
     </scenes>
     <resources>
