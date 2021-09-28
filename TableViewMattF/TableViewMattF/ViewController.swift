@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     let tableViewData = Array(repeating: "Item", count: 5)
     
     @IBOutlet weak var tableView: UITableView!
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,8 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
         
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell",
-                                                 for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell",for: indexPath)
         cell.textLabel?.text = self.tableViewData[indexPath.row]
         return cell
     }
