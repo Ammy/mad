@@ -50,26 +50,41 @@
                                                     <segment title="Normal"/>
                                                     <segment title="Double"/>
                                                 </segments>
+                                                <connections>
+                                                    <action selector="expertiseCheck:" destination="zd8-kQ-Run" eventType="valueChanged" id="qjI-aB-pDL"/>
+                                                </connections>
                                             </segmentedControl>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAU-8h-jbC">
                                                 <rect key="frame" x="171" y="179" width="73" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Acrobatics"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Xl4-Sz-EED"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4o-wH-f3t">
                                                 <rect key="frame" x="151" y="217" width="112" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Animal Handling"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="ySS-BT-3Lr"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xa2-kR-FKi">
                                                 <rect key="frame" x="183" y="255" width="48" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Arcana"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="ayT-Bm-dor"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35f-rH-HLr">
                                                 <rect key="frame" x="177" y="293" width="60" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Athletics"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="XR7-UQ-PEq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zde-rD-X0K">
                                                 <rect key="frame" x="172" y="331" width="71" height="30"/>
@@ -538,6 +553,13 @@
                     <value key="contentSizeForViewInPopover" type="size" width="414" height="1000"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="3000"/>
+                    <connections>
+                        <outlet property="expertise" destination="r8w-zB-hkG" id="oJy-H4-Phc"/>
+                        <outlet property="skill1" destination="qAU-8h-jbC" id="9jh-uU-MnQ"/>
+                        <outlet property="skill2" destination="v4o-wH-f3t" id="kRb-yJ-b8T"/>
+                        <outlet property="skill3" destination="Xa2-kR-FKi" id="KNK-D6-Sh5"/>
+                        <outlet property="skill4" destination="35f-rH-HLr" id="1pA-nW-jJv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LX7-J6-eCu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
