@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="2829"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DKN-f2-yIJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2829"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3104"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill Proficancies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeI-Dz-GX7">
                                                 <rect key="frame" x="143" y="150" width="129" height="21"/>
@@ -90,314 +90,492 @@
                                                 <rect key="frame" x="172" y="331" width="71" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Deception"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="tNF-Bm-2F4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBs-vc-rDh">
                                                 <rect key="frame" x="182" y="369" width="50" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="History"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Btn-S4-yBf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpi-6h-ePQ">
                                                 <rect key="frame" x="184" y="407" width="47" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Insight"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="y9U-RI-h6X"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yG-Yc-2D1">
                                                 <rect key="frame" x="167" y="445" width="81" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Intimidation"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="VyR-Hc-UYj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oc0-bT-807">
                                                 <rect key="frame" x="164" y="483" width="87" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Investigation"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="7ck-7T-vfR"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zs4-qS-PXX">
                                                 <rect key="frame" x="176" y="521" width="63" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Medicine"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="ppa-o4-Zl8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ax-si-aeP">
                                                 <rect key="frame" x="184" y="559" width="47" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Nature"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Y7K-8S-0Fc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67P-BD-oGV">
                                                 <rect key="frame" x="171" y="597" width="74" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Perception"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="ZBr-AV-dMM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1x4-bu-ajc">
                                                 <rect key="frame" x="163" y="635" width="89" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Performance"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="TdG-Ui-RP3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLq-53-exb">
                                                 <rect key="frame" x="170" y="673" width="76" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Persuasion"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="n4t-VY-LFB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwZ-lX-91l">
                                                 <rect key="frame" x="181" y="711" width="55" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Religion"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="U2Q-8j-U2c"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9v2-8i-bYY">
                                                 <rect key="frame" x="155" y="749" width="106" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Sleight of Hand"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="wdh-vQ-CEq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjv-yS-lly">
                                                 <rect key="frame" x="184" y="787" width="49" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Stealth"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="MPP-Df-w8x"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHm-DY-JnV">
                                                 <rect key="frame" x="182" y="825" width="54" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Survival"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Nyt-GE-284"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2h8-NQ-2wL">
                                                 <rect key="frame" x="137" y="921" width="143" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Alchemist's Supplies"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="FC9-Mw-BYY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2G-JJ-z1m">
                                                 <rect key="frame" x="148" y="959" width="123" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Brewer's Supplies"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="LqL-Wd-2Fz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ks4-NL-CoT">
                                                 <rect key="frame" x="130" y="997" width="158" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Calligrapher's Supplies"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="kLz-6S-ji2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2n-sC-DpJ">
                                                 <rect key="frame" x="149" y="1035" width="121" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Carpenter's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="MO9-xe-877"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vra-Wf-FMk">
                                                 <rect key="frame" x="137" y="1073" width="145" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Cartographer's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="biU-j2-xMo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9T-sq-eaj">
                                                 <rect key="frame" x="156" y="1111" width="107" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Cobbler's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="5KU-VZ-Ieg"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XqK-zn-q6M">
                                                 <rect key="frame" x="156" y="1149" width="107" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Cook's Utensils"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="O0s-uI-65r"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzA-QE-Sa6">
                                                 <rect key="frame" x="144" y="1187" width="132" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Glassblowers Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="uz8-1I-FpT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-bq-BDg">
                                                 <rect key="frame" x="157" y="1225" width="106" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Jeweler's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="8lf-Fj-4Ij"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXb-Xs-83x">
                                                 <rect key="frame" x="135" y="1263" width="151" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Leatherworker's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="zBu-gD-Av0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gL-a4-YAc">
                                                 <rect key="frame" x="162" y="1301" width="98" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Mason's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="uEZ-SS-c1s"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICb-fG-cGW">
                                                 <rect key="frame" x="149" y="1339" width="123" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Painter's Supplies"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="aEm-n2-rC9"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwM-f4-mcu">
                                                 <rect key="frame" x="164" y="1377" width="94" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Potter's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="KJD-OF-YQb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ie1-e0-QQt">
                                                 <rect key="frame" x="165" y="1415" width="92" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Smith's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="AfY-DV-wR6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVK-Dd-DW2">
                                                 <rect key="frame" x="163" y="1453" width="95" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Tinker's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="ffP-vi-IOt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nD-gH-iZW">
                                                 <rect key="frame" x="159" y="1491" width="104" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Weaver's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="6Ki-6n-8La"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpf-6B-uy8">
                                                 <rect key="frame" x="144" y="1529" width="135" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Woodcarver's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="OtI-ur-ja3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiR-Zw-X1X">
                                                 <rect key="frame" x="177" y="1596" width="58" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Dice Set"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Nr8-Kz-U1P"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggQ-vH-tdN">
                                                 <rect key="frame" x="144" y="1634" width="124" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Dragon Chess Set"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="4f7-rG-36g"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAG-cS-ZiK">
                                                 <rect key="frame" x="150" y="1672" width="114" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Playing Card Set"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="648-LM-fmv"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bs-rU-SWY">
                                                 <rect key="frame" x="128" y="1710" width="160" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Three-Dragon Ante Set"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="vIZ-Av-eEh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLW-kk-7tT">
                                                 <rect key="frame" x="170" y="1784" width="81" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Disguise Kit"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="nO7-i4-vlH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utq-2h-3SI">
                                                 <rect key="frame" x="173" y="1822" width="76" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Forgery Kit"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="a1T-Ef-oyt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDL-K9-GMr">
                                                 <rect key="frame" x="166" y="1860" width="92" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Herbalism Kit"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="3tr-bj-0SD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uI-Qk-OaB">
                                                 <rect key="frame" x="165" y="1898" width="94" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Poisoner's Kit"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="5Yj-V8-RXV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGw-eu-hff">
                                                 <rect key="frame" x="178" y="1973" width="64" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Bagpipes"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="DdB-qJ-bP5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWY-n5-7bS">
                                                 <rect key="frame" x="189" y="2011" width="38" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Drum"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="VT5-Sv-EWX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAC-UY-aBH">
                                                 <rect key="frame" x="177" y="2049" width="62" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Dulcimer"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="iNC-z2-CRc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6M-Nv-DP1">
                                                 <rect key="frame" x="191" y="2087" width="34" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Flute"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Ru5-9I-3Er"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4E7-HU-Mph">
                                                 <rect key="frame" x="192" y="2125" width="34" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Horn"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="9L3-FV-KIL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFR-HP-Mze">
                                                 <rect key="frame" x="194" y="2163" width="31" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Lute"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Vow-bF-h8r"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPg-wb-hfx">
                                                 <rect key="frame" x="194" y="2201" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Lyre"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="xve-Ue-1ex"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuo-Bj-CaA">
                                                 <rect key="frame" x="178" y="2239" width="64" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Pan Flute"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="tEe-ma-IOL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khi-D4-qvd">
                                                 <rect key="frame" x="185" y="2277" width="50" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Shawm"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="jCj-wo-APt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9m9-kZ-JK8">
                                                 <rect key="frame" x="195" y="2315" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Viol"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="1pk-OZ-0vl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBT-tx-0U9">
                                                 <rect key="frame" x="154" y="2382" width="119" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Navigator's Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="vBa-Y3-AVi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZa-ZV-Fw7">
                                                 <rect key="frame" x="164" y="2420" width="98" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Thieves' Tools"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="cCe-Be-WUJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3U0-7i-MCt">
                                                 <rect key="frame" x="181" y="2487" width="59" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Carriage"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="HwB-bt-sSa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQh-u4-YS1">
                                                 <rect key="frame" x="195" y="2525" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Cart"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="ec6-nD-cIq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OY8-hj-m56">
                                                 <rect key="frame" x="185" y="2556" width="50" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Chariot"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="yQr-u0-jRf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbf-bL-nKB">
                                                 <rect key="frame" x="189" y="2594" width="43" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Galley"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="1uE-39-x5M"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbb-Sr-Aky">
                                                 <rect key="frame" x="176" y="2632" width="70" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Kneelboat"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="jr1-B0-gAK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga5-aO-J3T">
                                                 <rect key="frame" x="180" y="2670" width="63" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Longship"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="rrG-sC-a9f"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ft-9y-mzU">
                                                 <rect key="frame" x="181" y="2708" width="60" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Rowboat"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="c0K-90-L87"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxR-bZ-1dh">
                                                 <rect key="frame" x="172" y="2746" width="80" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Sailing Ship"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="WGk-TX-IK8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5f0-aD-1s7">
                                                 <rect key="frame" x="196" y="2784" width="31" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Sled"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGg-Ys-s1J">
-                                                <rect key="frame" x="188" y="2815" width="48" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Wagon"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="33X-5s-y0A"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVZ-vc-ivp">
-                                                <rect key="frame" x="183" y="2851" width="56" height="30"/>
+                                                <rect key="frame" x="125" y="2810" width="56" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Warship"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="eVR-BF-2Vb"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Language Proficancy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRV-oS-3jH">
-                                                <rect key="frame" x="127" y="2889" width="161" height="21"/>
+                                                <rect key="frame" x="143" y="2901" width="161" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -520,6 +698,14 @@
                                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGg-Ys-s1J">
+                                                <rect key="frame" x="238" y="2810" width="48" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Wagon"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="rBI-M2-o2k"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </view>
                                 </subviews>
@@ -556,9 +742,71 @@
                     <connections>
                         <outlet property="expertise" destination="r8w-zB-hkG" id="oJy-H4-Phc"/>
                         <outlet property="skill1" destination="qAU-8h-jbC" id="9jh-uU-MnQ"/>
+                        <outlet property="skill10" destination="zs4-qS-PXX" id="bN1-1Z-d0R"/>
+                        <outlet property="skill11" destination="8ax-si-aeP" id="tTO-oh-txW"/>
+                        <outlet property="skill12" destination="67P-BD-oGV" id="dwn-Rb-9Y9"/>
+                        <outlet property="skill13" destination="1x4-bu-ajc" id="c9R-g0-QRK"/>
+                        <outlet property="skill14" destination="RLq-53-exb" id="aXX-rT-Uhx"/>
+                        <outlet property="skill15" destination="vwZ-lX-91l" id="v2Z-gn-Eqa"/>
+                        <outlet property="skill16" destination="9v2-8i-bYY" id="EA4-Fa-SW5"/>
+                        <outlet property="skill17" destination="zjv-yS-lly" id="0MC-fy-nko"/>
+                        <outlet property="skill18" destination="HHm-DY-JnV" id="NPJ-Fy-PJJ"/>
                         <outlet property="skill2" destination="v4o-wH-f3t" id="kRb-yJ-b8T"/>
                         <outlet property="skill3" destination="Xa2-kR-FKi" id="KNK-D6-Sh5"/>
                         <outlet property="skill4" destination="35f-rH-HLr" id="1pA-nW-jJv"/>
+                        <outlet property="skill5" destination="zde-rD-X0K" id="go1-2G-KGS"/>
+                        <outlet property="skill6" destination="aBs-vc-rDh" id="hpW-vL-giB"/>
+                        <outlet property="skill7" destination="Wpi-6h-ePQ" id="BY1-4A-Z8e"/>
+                        <outlet property="skill8" destination="2yG-Yc-2D1" id="Twy-zb-Oev"/>
+                        <outlet property="skill9" destination="Oc0-bT-807" id="Ds0-Jy-7HW"/>
+                        <outlet property="tool1" destination="2h8-NQ-2wL" id="g7Q-Ln-KVK"/>
+                        <outlet property="tool10" destination="PXb-Xs-83x" id="ugy-TD-Tn6"/>
+                        <outlet property="tool11" destination="1gL-a4-YAc" id="ydi-4g-j6t"/>
+                        <outlet property="tool12" destination="ICb-fG-cGW" id="GsK-bc-hgK"/>
+                        <outlet property="tool13" destination="VwM-f4-mcu" id="Vks-nD-K4a"/>
+                        <outlet property="tool14" destination="Ie1-e0-QQt" id="SfC-1G-eA7"/>
+                        <outlet property="tool15" destination="OVK-Dd-DW2" id="2KT-De-Npd"/>
+                        <outlet property="tool16" destination="4nD-gH-iZW" id="pbR-WE-ify"/>
+                        <outlet property="tool17" destination="gpf-6B-uy8" id="xez-GX-GVb"/>
+                        <outlet property="tool18" destination="iiR-Zw-X1X" id="wcn-et-wH7"/>
+                        <outlet property="tool19" destination="ggQ-vH-tdN" id="tj4-08-3Ez"/>
+                        <outlet property="tool2" destination="b2G-JJ-z1m" id="o7b-uo-DOb"/>
+                        <outlet property="tool20" destination="rAG-cS-ZiK" id="FkV-qe-Mxz"/>
+                        <outlet property="tool21" destination="9bs-rU-SWY" id="h2D-S6-Hsq"/>
+                        <outlet property="tool22" destination="iLW-kk-7tT" id="aK3-Yx-cJC"/>
+                        <outlet property="tool23" destination="utq-2h-3SI" id="hJL-cc-Uxd"/>
+                        <outlet property="tool24" destination="oDL-K9-GMr" id="LtA-3B-IfY"/>
+                        <outlet property="tool25" destination="2uI-Qk-OaB" id="Is5-FI-HcP"/>
+                        <outlet property="tool26" destination="hGw-eu-hff" id="iZT-QI-t4z"/>
+                        <outlet property="tool27" destination="QWY-n5-7bS" id="Hdh-6v-J0q"/>
+                        <outlet property="tool28" destination="RAC-UY-aBH" id="mEE-Gk-lEN"/>
+                        <outlet property="tool29" destination="c6M-Nv-DP1" id="yLZ-86-GQo"/>
+                        <outlet property="tool3" destination="Ks4-NL-CoT" id="1sg-vU-P9V"/>
+                        <outlet property="tool30" destination="4E7-HU-Mph" id="Dns-a7-icP"/>
+                        <outlet property="tool31" destination="iFR-HP-Mze" id="gsZ-rD-yaO"/>
+                        <outlet property="tool32" destination="KPg-wb-hfx" id="Yzw-Bm-qrE"/>
+                        <outlet property="tool33" destination="xuo-Bj-CaA" id="q7O-YI-c9v"/>
+                        <outlet property="tool34" destination="khi-D4-qvd" id="Ugu-Ki-Ma5"/>
+                        <outlet property="tool35" destination="9m9-kZ-JK8" id="V8U-1i-tao"/>
+                        <outlet property="tool36" destination="sBT-tx-0U9" id="rf5-Zt-cPi"/>
+                        <outlet property="tool37" destination="hZa-ZV-Fw7" id="DI6-kI-9Kg"/>
+                        <outlet property="tool38" destination="3U0-7i-MCt" id="awr-za-sQG"/>
+                        <outlet property="tool39" destination="yQh-u4-YS1" id="k8t-gl-2X1"/>
+                        <outlet property="tool4" destination="X2n-sC-DpJ" id="avU-zX-M9g"/>
+                        <outlet property="tool40" destination="OY8-hj-m56" id="JFy-wa-yTE"/>
+                        <outlet property="tool41" destination="sbf-bL-nKB" id="8IL-na-LoZ"/>
+                        <outlet property="tool42" destination="nbb-Sr-Aky" id="iGn-MY-wmY"/>
+                        <outlet property="tool43" destination="Ga5-aO-J3T" id="ZSx-S9-cab"/>
+                        <outlet property="tool44" destination="7ft-9y-mzU" id="LPa-lK-B1B"/>
+                        <outlet property="tool45" destination="pxR-bZ-1dh" id="YC7-8v-0Sb"/>
+                        <outlet property="tool46" destination="5f0-aD-1s7" id="8tY-mB-TBC"/>
+                        <outlet property="tool47" destination="TGg-Ys-s1J" id="Sga-h4-hya"/>
+                        <outlet property="tool48" destination="hVZ-vc-ivp" id="e6c-Zj-jFK"/>
+                        <outlet property="tool5" destination="Vra-Wf-FMk" id="42t-HY-LR2"/>
+                        <outlet property="tool6" destination="v9T-sq-eaj" id="NQt-3J-Gw1"/>
+                        <outlet property="tool7" destination="XqK-zn-q6M" id="9Yf-jV-Kgc"/>
+                        <outlet property="tool8" destination="CzA-QE-Sa6" id="n2p-WU-mg6"/>
+                        <outlet property="tool9" destination="RnO-bq-BDg" id="ONe-e0-jZy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LX7-J6-eCu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
