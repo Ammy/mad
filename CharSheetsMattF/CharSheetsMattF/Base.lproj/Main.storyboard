@@ -566,12 +566,12 @@
                                                     <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="33X-5s-y0A"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVZ-vc-ivp">
-                                                <rect key="frame" x="125" y="2810" width="56" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGg-Ys-s1J">
+                                                <rect key="frame" x="238" y="2810" width="48" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Warship"/>
+                                                <state key="normal" title="Wagon"/>
                                                 <connections>
-                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="eVR-BF-2Vb"/>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="rBI-M2-o2k"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Language Proficancy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRV-oS-3jH">
@@ -698,12 +698,12 @@
                                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGg-Ys-s1J">
-                                                <rect key="frame" x="238" y="2810" width="48" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVZ-vc-ivp">
+                                                <rect key="frame" x="187" y="2848" width="56" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Wagon"/>
+                                                <state key="normal" title="Warship"/>
                                                 <connections>
-                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="rBI-M2-o2k"/>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="eVR-BF-2Vb"/>
                                                 </connections>
                                             </button>
                                         </subviews>
