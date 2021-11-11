@@ -23,14 +23,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3104"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill Proficancies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeI-Dz-GX7">
-                                                <rect key="frame" x="143" y="150" width="129" height="21"/>
+                                                <rect key="frame" x="142.02147580482847" y="150" width="129" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tool Proficancies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDe-yt-r49">
-                                                <rect key="frame" x="146" y="863" width="130" height="21"/>
+                                                <rect key="frame" x="171" y="863" width="130" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -44,7 +44,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="r8w-zB-hkG">
-                                                <rect key="frame" x="146" y="111" width="127" height="32"/>
+                                                <rect key="frame" x="143.25582938742104" y="111" width="127" height="31.999999999999773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <segments>
                                                     <segment title="Normal"/>
@@ -54,16 +54,8 @@
                                                     <action selector="expertiseCheck:" destination="zd8-kQ-Run" eventType="valueChanged" id="qjI-aB-pDL"/>
                                                 </connections>
                                             </segmentedControl>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAU-8h-jbC">
-                                                <rect key="frame" x="171" y="179" width="73" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Acrobatics"/>
-                                                <connections>
-                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Xl4-Sz-EED"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4o-wH-f3t">
-                                                <rect key="frame" x="151" y="217" width="112" height="30"/>
+                                                <rect key="frame" x="150.66195088297559" y="217" width="111.99999999999955" height="30.000000000000227"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Animal Handling"/>
                                                 <connections>
@@ -71,7 +63,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xa2-kR-FKi">
-                                                <rect key="frame" x="183" y="255" width="48" height="30"/>
+                                                <rect key="frame" x="182.75514403037891" y="255.00000000000045" width="48" height="30.000000000000114"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Arcana"/>
                                                 <connections>
@@ -79,7 +71,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35f-rH-HLr">
-                                                <rect key="frame" x="177" y="293" width="60" height="30"/>
+                                                <rect key="frame" x="176.58337611741695" y="293" width="60" height="29.999999999999886"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Athletics"/>
                                                 <connections>
@@ -87,7 +79,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zde-rD-X0K">
-                                                <rect key="frame" x="172" y="331" width="71" height="30"/>
+                                                <rect key="frame" x="171.64596178704687" y="331" width="71" height="29.999999999999886"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Deception"/>
                                                 <connections>
@@ -95,7 +87,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBs-vc-rDh">
-                                                <rect key="frame" x="182" y="369" width="50" height="30"/>
+                                                <rect key="frame" x="181.52079044778679" y="369" width="49.999999999999773" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="History"/>
                                                 <connections>
@@ -103,7 +95,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpi-6h-ePQ">
-                                                <rect key="frame" x="184" y="407" width="47" height="30"/>
+                                                <rect key="frame" x="182.75514403037891" y="407" width="46.999999999999773" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Insight"/>
                                                 <connections>
@@ -111,7 +103,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yG-Yc-2D1">
-                                                <rect key="frame" x="167" y="445" width="81" height="30"/>
+                                                <rect key="frame" x="166.70854745667748" y="445" width="80.999999999999773" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Intimidation"/>
                                                 <connections>
@@ -119,7 +111,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oc0-bT-807">
-                                                <rect key="frame" x="164" y="483" width="87" height="30"/>
+                                                <rect key="frame" x="163.00548670889975" y="483" width="87" height="29.999999999999773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Investigation"/>
                                                 <connections>
@@ -127,7 +119,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zs4-qS-PXX">
-                                                <rect key="frame" x="176" y="521" width="63" height="30"/>
+                                                <rect key="frame" x="175.34902253482392" y="521" width="63.000000000000227" height="29.999999999999773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Medicine"/>
                                                 <connections>
@@ -135,7 +127,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ax-si-aeP">
-                                                <rect key="frame" x="184" y="559" width="47" height="30"/>
+                                                <rect key="frame" x="182.75514403037891" y="559" width="46.999999999999773" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Nature"/>
                                                 <connections>
@@ -143,7 +135,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67P-BD-oGV">
-                                                <rect key="frame" x="171" y="597" width="74" height="30"/>
+                                                <rect key="frame" x="170.41160820445407" y="597" width="74.000000000000227" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Perception"/>
                                                 <connections>
@@ -151,7 +143,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1x4-bu-ajc">
-                                                <rect key="frame" x="163" y="635" width="89" height="30"/>
+                                                <rect key="frame" x="161.77113312630763" y="635" width="88.999999999999545" height="29.999999999999773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Performance"/>
                                                 <connections>
@@ -159,7 +151,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLq-53-exb">
-                                                <rect key="frame" x="170" y="673" width="76" height="30"/>
+                                                <rect key="frame" x="169.17725462186195" y="673" width="76.000000000000455" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Persuasion"/>
                                                 <connections>
@@ -167,7 +159,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwZ-lX-91l">
-                                                <rect key="frame" x="181" y="711" width="55" height="30"/>
+                                                <rect key="frame" x="177.81772970001043" y="711" width="55" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Religion"/>
                                                 <connections>
@@ -175,7 +167,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9v2-8i-bYY">
-                                                <rect key="frame" x="155" y="749" width="106" height="30"/>
+                                                <rect key="frame" x="153.13065804816165" y="749" width="105.99999999999955" height="29.999999999999943"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Sleight of Hand"/>
                                                 <connections>
@@ -183,7 +175,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjv-yS-lly">
-                                                <rect key="frame" x="184" y="787" width="49" height="30"/>
+                                                <rect key="frame" x="181.52079044778748" y="787" width="49" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Stealth"/>
                                                 <connections>
@@ -191,7 +183,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHm-DY-JnV">
-                                                <rect key="frame" x="182" y="825" width="54" height="30"/>
+                                                <rect key="frame" x="179.05208328260255" y="825" width="53.999999999999773" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Survival"/>
                                                 <connections>
@@ -199,7 +191,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2h8-NQ-2wL">
-                                                <rect key="frame" x="137" y="921" width="143" height="30"/>
+                                                <rect key="frame" x="135.23253110057271" y="921" width="142.99999999999955" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Alchemist's Supplies"/>
                                                 <connections>
@@ -207,7 +199,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2G-JJ-z1m">
-                                                <rect key="frame" x="148" y="959" width="123" height="30"/>
+                                                <rect key="frame" x="145.10735976131218" y="959" width="122.99999999999977" height="29.999999999999943"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Brewer's Supplies"/>
                                                 <connections>
@@ -215,7 +207,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ks4-NL-CoT">
-                                                <rect key="frame" x="130" y="997" width="158" height="30"/>
+                                                <rect key="frame" x="127.82640960501794" y="996.99999999999977" width="157.99999999999977" height="30.000000000000142"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Calligrapher's Supplies"/>
                                                 <connections>
@@ -223,7 +215,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2n-sC-DpJ">
-                                                <rect key="frame" x="149" y="1035" width="121" height="30"/>
+                                                <rect key="frame" x="145.10735976131218" y="1034.9999999999998" width="120.99999999999977" height="30.000000000000142"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Carpenter's Tools"/>
                                                 <connections>
@@ -231,7 +223,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vra-Wf-FMk">
-                                                <rect key="frame" x="137" y="1073" width="145" height="30"/>
+                                                <rect key="frame" x="133.99817751798014" y="1072.9999999999998" width="144.99999999999977" height="29.999999999999972"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Cartographer's Tools"/>
                                                 <connections>
@@ -239,7 +231,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9T-sq-eaj">
-                                                <rect key="frame" x="156" y="1111" width="107" height="30"/>
+                                                <rect key="frame" x="153.13065804816256" y="1111" width="106.99999999999977" height="29.999999999999972"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Cobbler's Tools"/>
                                                 <connections>
@@ -247,7 +239,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XqK-zn-q6M">
-                                                <rect key="frame" x="156" y="1149" width="107" height="30"/>
+                                                <rect key="frame" x="153.13065804816256" y="1149" width="106.99999999999977" height="30.000000000000043"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Cook's Utensils"/>
                                                 <connections>
@@ -255,7 +247,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzA-QE-Sa6">
-                                                <rect key="frame" x="144" y="1187" width="132" height="30"/>
+                                                <rect key="frame" x="140.78712222223771" y="1187" width="132" height="30.000000000000149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Glassblowers Tools"/>
                                                 <connections>
@@ -263,7 +255,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-bq-BDg">
-                                                <rect key="frame" x="157" y="1225" width="106" height="30"/>
+                                                <rect key="frame" x="154.36501163075513" y="1225" width="105.99999999999955" height="30.000000000000146"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Jeweler's Tools"/>
                                                 <connections>
@@ -271,7 +263,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXb-Xs-83x">
-                                                <rect key="frame" x="135" y="1263" width="151" height="30"/>
+                                                <rect key="frame" x="130.91229356149847" y="1263" width="151" height="30.000000000000149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Leatherworker's Tools"/>
                                                 <connections>
@@ -279,7 +271,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gL-a4-YAc">
-                                                <rect key="frame" x="162" y="1301" width="98" height="30"/>
+                                                <rect key="frame" x="156.83371879593892" y="1301" width="98.000000000000227" height="30.00000000000006"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Mason's Tools"/>
                                                 <connections>
@@ -287,7 +279,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICb-fG-cGW">
-                                                <rect key="frame" x="149" y="1339" width="123" height="30"/>
+                                                <rect key="frame" x="144.49018297001521" y="1339" width="122.99999999999977" height="29.999999999999972"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Painter's Supplies"/>
                                                 <connections>
@@ -295,7 +287,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwM-f4-mcu">
-                                                <rect key="frame" x="164" y="1377" width="94" height="30"/>
+                                                <rect key="frame" x="158.06807237853195" y="1377" width="94" height="29.999999999999972"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Potter's Tools"/>
                                                 <connections>
@@ -303,7 +295,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ie1-e0-QQt">
-                                                <rect key="frame" x="165" y="1415" width="92" height="30"/>
+                                                <rect key="frame" x="159.30242596112407" y="1415" width="91.999999999999773" height="29.999999999999972"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Smith's Tools"/>
                                                 <connections>
@@ -311,7 +303,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVK-Dd-DW2">
-                                                <rect key="frame" x="163" y="1453" width="95" height="30"/>
+                                                <rect key="frame" x="158.06807237853195" y="1453" width="95.000000000000227" height="30.000000000000142"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Tinker's Tools"/>
                                                 <connections>
@@ -319,7 +311,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nD-gH-iZW">
-                                                <rect key="frame" x="159" y="1491" width="104" height="30"/>
+                                                <rect key="frame" x="153.13065804815528" y="1491" width="103.99999999999977" height="30.000000000000057"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Weaver's Tools"/>
                                                 <connections>
@@ -327,7 +319,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpf-6B-uy8">
-                                                <rect key="frame" x="144" y="1529" width="135" height="30"/>
+                                                <rect key="frame" x="138.31841505704597" y="1529" width="134.99999999999977" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Woodcarver's Tools"/>
                                                 <connections>
@@ -335,7 +327,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiR-Zw-X1X">
-                                                <rect key="frame" x="177" y="1596" width="58" height="30"/>
+                                                <rect key="frame" x="176.58337611741081" y="1596" width="58.000000000000455" height="29.999999999999943"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Dice Set"/>
                                                 <connections>
@@ -343,7 +335,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggQ-vH-tdN">
-                                                <rect key="frame" x="144" y="1634" width="124" height="30"/>
+                                                <rect key="frame" x="143.25582938741513" y="1634" width="123.99999999999977" height="29.999999999999773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Dragon Chess Set"/>
                                                 <connections>
@@ -351,7 +343,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAG-cS-ZiK">
-                                                <rect key="frame" x="150" y="1672" width="114" height="30"/>
+                                                <rect key="frame" x="148.19324371778475" y="1672" width="114.00000000000045" height="29.999999999999829"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Playing Card Set"/>
                                                 <connections>
@@ -359,7 +351,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bs-rU-SWY">
-                                                <rect key="frame" x="128" y="1710" width="160" height="30"/>
+                                                <rect key="frame" x="125.97487923112067" y="1710" width="160.00000000000023" height="29.999999999999943"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Three-Dragon Ante Set"/>
                                                 <connections>
@@ -367,7 +359,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLW-kk-7tT">
-                                                <rect key="frame" x="170" y="1784" width="81" height="30"/>
+                                                <rect key="frame" x="166.70854745667225" y="1784" width="80.999999999999773" height="30.000000000000284"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Disguise Kit"/>
                                                 <connections>
@@ -375,7 +367,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utq-2h-3SI">
-                                                <rect key="frame" x="173" y="1822" width="76" height="30"/>
+                                                <rect key="frame" x="169.17725462185672" y="1822" width="76.000000000000455" height="30.000000000000341"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Forgery Kit"/>
                                                 <connections>
@@ -383,7 +375,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDL-K9-GMr">
-                                                <rect key="frame" x="166" y="1860" width="92" height="30"/>
+                                                <rect key="frame" x="160.5367795437096" y="1860" width="91.999999999999773" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Herbalism Kit"/>
                                                 <connections>
@@ -391,7 +383,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uI-Qk-OaB">
-                                                <rect key="frame" x="165" y="1898" width="94" height="30"/>
+                                                <rect key="frame" x="159.30242596111748" y="1898" width="94" height="29.999999999999886"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Poisoner's Kit"/>
                                                 <connections>
@@ -399,7 +391,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGw-eu-hff">
-                                                <rect key="frame" x="178" y="1973" width="64" height="30"/>
+                                                <rect key="frame" x="174.1146689522152" y="1973" width="64.000000000000227" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Bagpipes"/>
                                                 <connections>
@@ -407,7 +399,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWY-n5-7bS">
-                                                <rect key="frame" x="189" y="2011" width="38" height="30"/>
+                                                <rect key="frame" x="186.45820477813959" y="2011.0000000000005" width="38.000000000000455" height="29.999999999999886"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Drum"/>
                                                 <connections>
@@ -415,7 +407,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAC-UY-aBH">
-                                                <rect key="frame" x="177" y="2049" width="62" height="30"/>
+                                                <rect key="frame" x="174.1146689522152" y="2049.0000000000005" width="62" height="30.000000000000114"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Dulcimer"/>
                                                 <connections>
@@ -423,7 +415,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6M-Nv-DP1">
-                                                <rect key="frame" x="191" y="2087" width="34" height="30"/>
+                                                <rect key="frame" x="188.92691194332451" y="2087.0000000000005" width="34.000000000000682" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Flute"/>
                                                 <connections>
@@ -431,7 +423,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4E7-HU-Mph">
-                                                <rect key="frame" x="192" y="2125" width="34" height="30"/>
+                                                <rect key="frame" x="188.92691194332451" y="2125" width="34.000000000000682" height="30.000000000000455"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Horn"/>
                                                 <connections>
@@ -439,7 +431,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFR-HP-Mze">
-                                                <rect key="frame" x="194" y="2163" width="31" height="30"/>
+                                                <rect key="frame" x="190.16126552591709" y="2163" width="31.000000000000227" height="30.000000000000455"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Lute"/>
                                                 <connections>
@@ -447,7 +439,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPg-wb-hfx">
-                                                <rect key="frame" x="194" y="2201" width="30" height="30"/>
+                                                <rect key="frame" x="190.16126552591709" y="2201" width="30.000000000000227" height="30.000000000000455"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Lyre"/>
                                                 <connections>
@@ -455,7 +447,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuo-Bj-CaA">
-                                                <rect key="frame" x="178" y="2239" width="64" height="30"/>
+                                                <rect key="frame" x="174.11466895221179" y="2239" width="64.000000000000227" height="29.999999999999886"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Pan Flute"/>
                                                 <connections>
@@ -463,7 +455,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khi-D4-qvd">
-                                                <rect key="frame" x="185" y="2277" width="50" height="30"/>
+                                                <rect key="frame" x="180.28643686517421" y="2277" width="50.000000000000227" height="29.999999999999886"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Shawm"/>
                                                 <connections>
@@ -471,7 +463,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9m9-kZ-JK8">
-                                                <rect key="frame" x="195" y="2315" width="30" height="30"/>
+                                                <rect key="frame" x="190.16126552591345" y="2315" width="30.000000000000455" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Viol"/>
                                                 <connections>
@@ -479,7 +471,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBT-tx-0U9">
-                                                <rect key="frame" x="154" y="2382" width="119" height="30"/>
+                                                <rect key="frame" x="146.34171334387065" y="2382" width="119.00000000000023" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Navigator's Tools"/>
                                                 <connections>
@@ -487,7 +479,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZa-ZV-Fw7">
-                                                <rect key="frame" x="164" y="2420" width="98" height="30"/>
+                                                <rect key="frame" x="157.45089558720247" y="2420" width="98.000000000000227" height="29.999999999999773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Thieves' Tools"/>
                                                 <connections>
@@ -495,7 +487,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3U0-7i-MCt">
-                                                <rect key="frame" x="181" y="2487" width="59" height="30"/>
+                                                <rect key="frame" x="177.20055290868163" y="2487" width="59.000000000000227" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Carriage"/>
                                                 <connections>
@@ -503,7 +495,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQh-u4-YS1">
-                                                <rect key="frame" x="195" y="2525" width="30" height="30"/>
+                                                <rect key="frame" x="190.77844231719882" y="2525" width="30" height="29.999999999999318"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Cart"/>
                                                 <connections>
@@ -511,7 +503,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OY8-hj-m56">
-                                                <rect key="frame" x="185" y="2556" width="50" height="30"/>
+                                                <rect key="frame" x="180.90361365645936" y="2556" width="50" height="30.000000000000227"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Chariot"/>
                                                 <connections>
@@ -519,7 +511,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbf-bL-nKB">
-                                                <rect key="frame" x="189" y="2594" width="43" height="30"/>
+                                                <rect key="frame" x="184.60667440423663" y="2593.9999999999991" width="42.999999999999773" height="30.000000000000909"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Galley"/>
                                                 <connections>
@@ -527,7 +519,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbb-Sr-Aky">
-                                                <rect key="frame" x="176" y="2632" width="70" height="30"/>
+                                                <rect key="frame" x="171.64596178701368" y="2631.9999999999991" width="69.999999999999773" height="30.000000000001137"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Kneelboat"/>
                                                 <connections>
@@ -535,7 +527,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ga5-aO-J3T">
-                                                <rect key="frame" x="180" y="2670" width="63" height="30"/>
+                                                <rect key="frame" x="175.34902253479072" y="2669.9999999999995" width="63.000000000000227" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Longship"/>
                                                 <connections>
@@ -543,7 +535,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ft-9y-mzU">
-                                                <rect key="frame" x="181" y="2708" width="60" height="30"/>
+                                                <rect key="frame" x="176.58337611738375" y="2707.9999999999995" width="60" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Rowboat"/>
                                                 <connections>
@@ -551,7 +543,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxR-bZ-1dh">
-                                                <rect key="frame" x="172" y="2746" width="80" height="30"/>
+                                                <rect key="frame" x="166.70854745664428" y="2745.9999999999995" width="79.999999999999318" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Sailing Ship"/>
                                                 <connections>
@@ -559,7 +551,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5f0-aD-1s7">
-                                                <rect key="frame" x="196" y="2784" width="31" height="30"/>
+                                                <rect key="frame" x="191.39561910849284" y="2784" width="31" height="29.999999999999773"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Sled"/>
                                                 <connections>
@@ -567,7 +559,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGg-Ys-s1J">
-                                                <rect key="frame" x="238" y="2810" width="48" height="30"/>
+                                                <rect key="frame" x="238" y="2822" width="48" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Wagon"/>
                                                 <connections>
@@ -575,135 +567,151 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Language Proficancy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRV-oS-3jH">
-                                                <rect key="frame" x="143" y="2901" width="161" height="14"/>
+                                                <rect key="frame" x="171" y="2860" width="161" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doC-lp-ksi">
-                                                <rect key="frame" x="54" y="2923" width="62" height="30"/>
+                                                <rect key="frame" x="10" y="2923" width="62" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Common"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxq-ag-wYd">
-                                                <rect key="frame" x="40" y="2961" width="92" height="30"/>
+                                                <rect key="frame" x="10" y="2961" width="92" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Deep Speech"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDX-Bp-14Z">
-                                                <rect key="frame" x="55" y="2999" width="62" height="30"/>
+                                                <rect key="frame" x="10" y="2999" width="62" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Draconic"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkQ-yo-DV9">
-                                                <rect key="frame" x="63" y="3030" width="46" height="30"/>
+                                                <rect key="frame" x="10" y="3030" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Drudic"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIo-JW-fOk">
-                                                <rect key="frame" x="56" y="3066" width="58" height="30"/>
+                                                <rect key="frame" x="10" y="3066" width="58" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Dwavish"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgv-1Y-imJ">
-                                                <rect key="frame" x="191" y="2923" width="40" height="30"/>
+                                                <rect key="frame" x="171" y="2923" width="40" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Elvish"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sy-mD-Ddo">
-                                                <rect key="frame" x="194" y="2961" width="37" height="30"/>
+                                                <rect key="frame" x="171" y="2961" width="37" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Giant"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0v-gk-EuH">
-                                                <rect key="frame" x="182" y="2999" width="61" height="30"/>
+                                                <rect key="frame" x="171" y="2999" width="61" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Gnomish"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNr-MK-ZOq">
-                                                <rect key="frame" x="190" y="3030" width="45" height="30"/>
+                                                <rect key="frame" x="171" y="3030" width="45" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Goblin"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPI-DL-CwQ">
-                                                <rect key="frame" x="185" y="3066" width="53" height="30"/>
+                                                <rect key="frame" x="171" y="3066" width="53" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Halfling"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xk2-LZ-JvO">
-                                                <rect key="frame" x="316" y="2923" width="52" height="30"/>
+                                                <rect key="frame" x="310.5" y="2923" width="52" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Infernal"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EA1-IE-0Kl">
-                                                <rect key="frame" x="311" y="2961" width="64" height="30"/>
+                                                <rect key="frame" x="310.5" y="2961" width="64" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Primodial"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIG-ne-nv9">
-                                                <rect key="frame" x="321" y="2999" width="45" height="30"/>
+                                                <rect key="frame" x="310.5" y="2999" width="45" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Sylvan"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sS-eO-jC3">
-                                                <rect key="frame" x="296" y="3030" width="94" height="30"/>
+                                                <rect key="frame" x="310.5" y="3030" width="94" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Thieves' Cant"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vy9-O0-fwP">
-                                                <rect key="frame" x="291" y="3066" width="102" height="30"/>
+                                                <rect key="frame" x="310.5" y="3066" width="102" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Undercommon"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vehicles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdt-f4-aNY">
-                                                <rect key="frame" x="177" y="2458" width="64" height="21"/>
+                                                <rect key="frame" x="171" y="2458" width="64" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Professional Tools" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fme-9i-coc">
-                                                <rect key="frame" x="145" y="2353" width="138" height="21"/>
+                                                <rect key="frame" x="171" y="2353" width="138" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Artisan's Tools" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2d-6a-GhN">
-                                                <rect key="frame" x="154" y="892" width="112" height="21"/>
+                                                <rect key="frame" x="171" y="892" width="112" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gaming Set" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbO-G3-7Zo">
-                                                <rect key="frame" x="163" y="1567" width="89" height="21"/>
+                                                <rect key="frame" x="171" y="1567" width="89" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GS1-Eh-AVf">
-                                                <rect key="frame" x="196" y="1755" width="29" height="21"/>
+                                                <rect key="frame" x="171" y="1755" width="29" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Musical Instruments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sb-9q-5I4">
-                                                <rect key="frame" x="135" y="1944" width="153" height="21"/>
+                                                <rect key="frame" x="171" y="1944" width="153" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVZ-vc-ivp">
-                                                <rect key="frame" x="187" y="2848" width="56" height="30"/>
+                                                <rect key="frame" x="143" y="2822" width="56" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Warship"/>
                                                 <connections>
                                                     <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="eVR-BF-2Vb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyS-8b-WaH">
+                                                <rect key="frame" x="56" y="322" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="saveButton:" destination="zd8-kQ-Run" eventType="touchUpInside" id="t2l-yF-U73"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAU-8h-jbC">
+                                                <rect key="frame" x="170.41160820445475" y="179" width="73.000000000000455" height="29.999999999999773"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Acrobatics"/>
+                                                <connections>
+                                                    <action selector="changeLanguageWithSender:" destination="zd8-kQ-Run" eventType="touchUpInside" id="Xl4-Sz-EED"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -741,6 +749,21 @@
                     <size key="freeformSize" width="414" height="3000"/>
                     <connections>
                         <outlet property="expertise" destination="r8w-zB-hkG" id="oJy-H4-Phc"/>
+                        <outlet property="lang1" destination="doC-lp-ksi" id="sfV-Mq-cYn"/>
+                        <outlet property="lang10" destination="XPI-DL-CwQ" id="4O0-Ai-b9b"/>
+                        <outlet property="lang11" destination="Xk2-LZ-JvO" id="C2H-Q1-Aqd"/>
+                        <outlet property="lang12" destination="EA1-IE-0Kl" id="bDu-6d-BLQ"/>
+                        <outlet property="lang13" destination="BIG-ne-nv9" id="E75-zV-lrO"/>
+                        <outlet property="lang14" destination="2sS-eO-jC3" id="OSW-Ul-ac8"/>
+                        <outlet property="lang15" destination="vy9-O0-fwP" id="Zz4-eB-VFe"/>
+                        <outlet property="lang2" destination="nxq-ag-wYd" id="Wtf-cg-qkD"/>
+                        <outlet property="lang3" destination="fDX-Bp-14Z" id="7hs-Tz-zsg"/>
+                        <outlet property="lang4" destination="fkQ-yo-DV9" id="YQl-wO-Ole"/>
+                        <outlet property="lang5" destination="WIo-JW-fOk" id="1hg-wQ-b5t"/>
+                        <outlet property="lang6" destination="Xgv-1Y-imJ" id="gjl-xV-ihn"/>
+                        <outlet property="lang7" destination="5sy-mD-Ddo" id="cUn-7U-irL"/>
+                        <outlet property="lang8" destination="u0v-gk-EuH" id="qaC-9f-1hs"/>
+                        <outlet property="lang9" destination="eNr-MK-ZOq" id="B6L-Kx-XYV"/>
                         <outlet property="skill1" destination="qAU-8h-jbC" id="9jh-uU-MnQ"/>
                         <outlet property="skill10" destination="zs4-qS-PXX" id="bN1-1Z-d0R"/>
                         <outlet property="skill11" destination="8ax-si-aeP" id="tTO-oh-txW"/>
@@ -913,10 +936,12 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="charName" destination="N6i-9R-oWe" id="wbj-ZI-pRA"/>
+                        <outlet property="classChoice" destination="iKR-2r-mmF" id="nNi-cj-ERu"/>
                         <outlet property="level" destination="xbC-vm-Ixj" id="qKo-Kv-L66"/>
                         <outlet property="levelSelect" destination="M99-hd-Tgg" id="eKc-Gm-CfW"/>
                         <outlet property="mainClass" destination="iKR-2r-mmF" id="RZL-MH-nOC"/>
-                        <outlet property="race" destination="fcU-OS-GhG" id="bj0-p5-KZG"/>
+                        <outlet property="raceChoice" destination="fcU-OS-GhG" id="EqP-Ew-Q7D"/>
+                        <outlet property="subClassChoice" destination="ClO-KU-4TK" id="ceB-xf-dNv"/>
                         <outlet property="subclass" destination="ClO-KU-4TK" id="tgH-rm-kuB"/>
                     </connections>
                 </viewController>

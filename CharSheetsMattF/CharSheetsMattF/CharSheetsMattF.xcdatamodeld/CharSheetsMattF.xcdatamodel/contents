@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Character" representedClassName="Character" syncable="YES" codeGenerationType="class">
         <attribute name="doubleProfST" optional="YES" attributeType="Binary"/>
         <attribute name="level" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="mainClass" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="profSTL" optional="YES" attributeType="Binary"/>
+        <attribute name="profSTL" optional="YES" attributeType="String"/>
         <attribute name="profWA" optional="YES" attributeType="Binary"/>
         <attribute name="race" optional="YES" attributeType="String"/>
         <attribute name="subClass" optional="YES" attributeType="String"/>
